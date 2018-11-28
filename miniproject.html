@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="miniproject.css" />
+  <title>Link aggregator</title>
+</head>
+<body>
+
+  <div id="wrap">
+    <h3 id="header">Obavestenje</h3>
+    <div class="explanation">
+      <p>Postovani, aplikacija radi sve sto je i predvidjeno, proverava unos u polja, duzinu unosa i format, ubacuje ih u sessionStorage, pritom ih sortira obrnutim redom u odnosu na broj poena i osvezava stranu kada se glasa up-down...<hr>
+        ONO STO NE RADI, a trebala bi, je to da kada se glasa, registruje to u sessionStorage preko data- atributa
+        koji
+        se
+        nalazi na divu u kojem se ispisuju poeni i apdejtuje to i broj poena u sessionStorage.<br> Dakle problem je u tome
+        sto okreni-obrni nisam mogao da uparim brojac i poene sa sessionStorage-om.
+        <p>Pozdrav, Vuk Vodogaz</p>
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="input-block">
+      <h3>Add a Link</h3>
+      <form id="link-form">
+        <div id='titlewrap'>
+          <label for="title">Title:</label>
+          <input type="text" id="title" class="title">
+        </div>
+        <div id='linkwrap'>
+          <label for="link">Link:</label>
+          <input type="text" id="link" class="link">
+        </div>
+        <div>
+          <input type="submit" value="Submit Link" class="submit">
+        </div>
+      </form>
+    </section>
+
+    <section id="out-block">
+    </section>
+
+  </div>
+
+  <script src="miniproject.js"></script>
+</body>
+
+</html>
