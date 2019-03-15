@@ -27,4 +27,4 @@ As a user I want to see existing and new entries in a list based view. The title
 Acceptance Criterias:
 
 ● The list must be sorted (descended) by the vote counters. This means an entry with a counter of 6 is positioned higher than an entry with a counter of 3          
-● The design of the solution should somewhat be similar to the one in the following screenshot. You are permitted to use a frontend framework like bootstrap or foundation.       
+● The design of the solution should somewhat be similar to the one in the following screenshot.
